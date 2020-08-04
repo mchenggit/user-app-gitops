@@ -14,6 +14,6 @@ spec:
       https:
         url: https://github.com/mchenggit/user-app-gitops/blob/master/pipelines/pipelines-pipelines.tar.gz?raw=true
       id: default
-      sha256: e25ec7bcb0fb8f34beb0d8b75cea0517b807d8d5eb1628f22ab4f8155b580f96
+      sha256: e516ce00da25ca3afe9558ddec470752cf249bde5177719e498aff27de08f33c
     version: 0.4.0
     devfile: https://raw.githubusercontent.com/odo-devfiles/registry/master/devfiles/nodejs/devfile.yaml
