@@ -1,0 +1,19 @@
+apiVersion: kabanero.io/v1alpha2
+kind: Stack
+metadata:
+  name: test
+  namespace: kabanero
+spec:
+  name: test
+  versions:
+  - images:
+    - id: node js
+      image: docker.io/appsody/nodejs
+    pipelines:
+    - gitRelease: {}
+      https:
+        url: https://github.com/mchenggit/user-app-gitops/blob/master/pipelines/pipelines-pipelines.tar.gz?raw=true
+      id: default
+      sha256: e25ec7bcb0fb8f34beb0d8b75cea0517b807d8d5eb1628f22ab4f8155b580f96
+    version: 0.4.0
+    devfile: https://raw.githubusercontent.com/odo-devfiles/registry/master/devfiles/nodejs/devfile.yaml
