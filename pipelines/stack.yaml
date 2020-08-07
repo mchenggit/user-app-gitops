@@ -12,8 +12,8 @@ spec:
     pipelines:
     - gitRelease: {}
       https:
-        url: https://github.com/mchenggit/user-app-gitops/blob/master/pipelines/pipelines-pipelines.tar.gz?raw=true
+        url: https://github.com/mchenggit/user-app-gitops/blob/master/pipelines/odotechpreview-pipelines.tar.gz?raw=true
       id: default
-      sha256: 908a1bf86fb8690b1e17d4f7f31ece8b610ae78124ef7c83157e3354b3dfa38a
+      sha256: cb6926f5c73de1e62fa68a179952c1c1d4a3e7a0594d60436d8df77b27964e33
     version: 0.4.0
     devfile: https://raw.githubusercontent.com/odo-devfiles/registry/master/devfiles/nodejs/devfile.yaml
